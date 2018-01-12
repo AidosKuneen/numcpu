@@ -8,7 +8,7 @@ NumcCPU
 
 ## Overview
 
-NumCPU returns the number of logical CPUs usable by the current process.
+numcpu.NumCPU() returns the number of logical CPUs usable by the current process.
 
 Android doesn't return max number of CPUs by runtime.NumCPU(),
 but just returns number of "working" CPUs.
