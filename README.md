@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/AidosKuneen/numcpu/master/LICENSE)
 
 
-NumcCPU
+NumCPU
 =====
 
 ## Overview
