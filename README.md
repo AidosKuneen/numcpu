@@ -33,3 +33,7 @@ are required to compile.
 	n:=numcpu.NumCPU()
 ```
 
+
+# Dependencies and Licenses
+
+Golang Standard Library       BSD 3-clause License
