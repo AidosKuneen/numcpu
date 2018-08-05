@@ -34,6 +34,8 @@ are required to compile.
 ```
 
 
-# Dependencies and Licenses
+## Dependencies and Licenses
 
+```
 Golang Standard Library       BSD 3-clause License
+```
