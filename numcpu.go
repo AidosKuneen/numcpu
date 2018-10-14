@@ -37,11 +37,11 @@ func NumCPU() int {
 		return runtime.NumCPU()
 	}
 	list, err := f.Readdir(-1)
-	if err = f.Close(); err != nil {
-		panic(err)
-	}
 	if err != nil {
 		return runtime.NumCPU()
+	}
+	if err = f.Close(); err != nil {
+		panic(err)
 	}
 	n := 0
 	for _, l := range list {
