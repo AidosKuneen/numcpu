@@ -37,7 +37,7 @@ func NumCPU() int {
 		return runtime.NumCPU()
 	}
 	list, err := f.Readdir(-1)
-	if err := f.Close(); err != nil {
+	if err = f.Close(); err != nil {
 		panic(err)
 	}
 	if err != nil {
