@@ -12,7 +12,8 @@ before_install:
 - gometalinter --install --update
 
 script:
-- go test ./... -v -covermode=count -coverprofile=coverage.out
+- env GO111MODULE=on go build 
+- env GO111MODULE=on go test ./... -v -covermode=count -coverprofile=coverage.out
 
 after_success:
 - gometalinter -e bindata --deadline=1000s ./...
