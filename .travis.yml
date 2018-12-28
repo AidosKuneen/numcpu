@@ -6,8 +6,8 @@ go:
 install:
 
 before_install:
-- go get -u github.com/mattn/goveralls
 - export PATH=$PATH:$GOPATH/bin
+- go get -u github.com/mattn/goveralls
 - pushd $GOPATH
 - curl -L https://git.io/vp6lP | sh
 - popd
