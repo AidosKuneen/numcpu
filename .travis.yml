@@ -9,7 +9,9 @@ before_install:
 - go get -u github.com/alecthomas/gometalinter
 - go get -u github.com/mattn/goveralls
 - export PATH=$PATH:$GOPATH/bin
+- pushd ~
 - gometalinter --install --update
+- popd
 
 script:
 - env GO111MODULE=on go build 
