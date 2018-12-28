@@ -3,6 +3,9 @@ language: go
 go:
 - "1.11.x"
 
+env:
+- GO111MODULE=on 
+
 install:
 
 before_install:
@@ -13,8 +16,8 @@ before_install:
 - popd
 
 script:
-- env GO111MODULE=on go build 
-- env GO111MODULE=on go test ./... -v -covermode=count -coverprofile=coverage.out
+- go build 
+- go test ./... -v -covermode=count -coverprofile=coverage.out
 
 after_success:
 - gometalinter -e bindata --deadline=1000s ./...
