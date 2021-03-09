@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/AidosKuneen/numcpu.svg?branch=master)](https://travis-ci.org/AidosKuneen/numcpu)
+![Golangci lint](https://github.com/AidosKuneen/numcpu/actions/workflows/golangci-lint.yml/badge.svg)
+![Tests](https://github.com/AidosKuneen/numcpu/actions/workflows/tests.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/AidosKuneen/numcpu/badge.svg?branch=master)](https://coveralls.io/github/AidosKuneen/numcpu?branch=master)
 [![GoDoc](https://godoc.org/github.com/AidosKuneen/numcpu?status.svg)](https://godoc.org/github.com/AidosKuneen/numcpu)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/AidosKuneen/numcpu/master/LICENSE)
 
